@@ -1,8 +1,8 @@
 <script setup>
-  import {useOffreStore} from '../stores/offresEmploi';
-  const offreStore = useOffreStore();
-  offreStore.getOffresEmploi(); 
-  console.log(offreStore.listEmploi);
+  // import {useOffreStore} from '../stores/offresEmploi';
+  // const offreStore = useOffreStore();
+  // offreStore.getOffresEmploi(); 
+  // console.log(offreStore.listEmploi);
 </script>
 
 <template>

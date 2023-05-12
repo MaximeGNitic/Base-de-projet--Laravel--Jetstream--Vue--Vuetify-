@@ -1,20 +1,20 @@
 <script setup>
   import {onMounted } from 'vue';
-  import {useOffreStore} from 'stores/offresEmploi';
+//   import {useOffreStore} from 'stores/offresEmploi';
 
 
-  const offreStore = useOffreStore();
+//   const offreStore = useOffreStore();
 
 
-  //Login
-  function ajoutOffresEmploiForm() {
-      offreStore.addOffreEmploi(experience.value, datePublication.value, debutMandat.value, horaire.value, langue.value, infoSup.value);
-  }
+//   //Login
+//   function ajoutOffresEmploiForm() {
+//       offreStore.addOffreEmploi(experience.value, datePublication.value, debutMandat.value, horaire.value, langue.value, infoSup.value);
+//   }
 
-onMounted(async () => {
-  await offreStore.getOffreEmploi(); 
-  console.log(offreStore.listEmploi);
-});
+// onMounted(async () => {
+//   await offreStore.getOffreEmploi(); 
+//   console.log(offreStore.listEmploi);
+// });
 </script>
 
 <template>
