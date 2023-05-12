@@ -1,13 +1,18 @@
-<script>
+<script setup>
+import HeaderComponent from '../Components/HeaderComponent.vue';
+import FooterComponent from '../Components/FooterComponent.vue';
 </script>
 
 <template>
-  <div>
-    <div>
-      <h1>Ceci est Main Layout</h1>
-    </div>
-    <div>
-      <slot/>
-    </div>
-  </div>
+  <v-app>
+    <HeaderComponent />
+
+    <v-main>
+      <v-container fluid>
+        <slot />
+      </v-container>
+    </v-main>
+
+    <FooterComponent />
+  </v-app>
 </template>
